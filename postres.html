@@ -4,77 +4,58 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principales</title>
+    <title>Postres</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="js/script.js"></script>
 </head>
 
 <body>
     <div>
-        <img src="images/principales.png" alt="principales" class="imagen_difuminada" id="img_principales">
+        <img src="images/postres.png" alt="postres" class="imagen_difuminada" id="img_postres">
         <div id="div_p1">
-            <p>Capas infinitas de documentos, PDFs que nadie revisa y una salsa secreta llamada<br>
-                "¿Pero dónde guardé este archivo?"
+            <p>Postre 1</p>
+            <p>Dulce mezcla internacional con vocabulario suave,<br> expresiones deliciosas y un toque de pronunciación “aprobadita”.
             </p>
-            <form action="#" method="post" id="form_principales1">
-                <input type="radio" id="respuesta1" name="entrante" value="respuesta1">
-                <label for="respuesta1">Lasaña de Gestión Avanzada de la Información</label><br>
+            <form action="#" method="post" id="form_postres1">
+                <input type="radio" id="resp_postre1" name="entrante" value="resp_postre1">
+                <label for="resp_postre1">Limonada de Sostenibilidad Aplicada al Sistema Productivo</label><br>
 
-                <input type="radio" id="respuesta2" name="entrante" value="respuesta2">
-                <label for="respuesta2">Ensalada de Protocolo con Etiqueta al Punto</label><br>
+                <input type="radio" id="resp_postre2" name="entrante" value="resp_postre2">
+                <label for="resp_postre2">Café de Digitalización Aplicada al Sistema Productivo</label><br>
 
-                <input type="radio" id="respuesta3" name="entrante" value="respuesta3">
-                <label for="respuesta3">Pincho de Contabilidad</label><br>
+                <input type="radio" id="resp_postre3" name="entrante" value="resp_postre3">
+                <label for="resp_postre3">Tarta Lingüística de Francés e Inglés</label><br>
 
-                <input type="radio" id="respuesta4" name="entrante" value="respuesta4">
-                <label for="respuesta4">Pincho de Organización de Eventos Empresariales</label><br>
+                <input type="radio" id="resp_postre4" name="entrante" value="resp_postre4">
+                <label for="resp_postre4">Flan de Itinerario Personal para la Empleabilidad</label><br>
 
-                <button type="reset" class="boton" onclick="verificarRespuesta('pregunta1')">Enviar respuesta</button>
+                <button type="reset" class="boton" onclick="verificarRespuesta('pregunta7')">Enviar respuesta</button>
             </form>
 
         </div>
         <div id="div_p2" style="display: none">
-            <p>Planificado, calendarizado, enviado por email, aprobado por tres departamentos….<br>
-               y cancelado a última hora como todo buen evento
+            <p>Postre 2</p>
+            <p>Suave, motivador y lleno de futuro… pero servido con la típica pregunta:<br> “¿Y tú qué quieres hacer con tu vida?”
             </p>
-            <form action="#" method="post" id="form_principales2">
-                <input type="radio" id="respuesta5" name="entrante" value="respuesta5">
-                <label for="respuesta5">Lasaña de Gestión Avanzada de la Información</label><br>
+            <form action="#" method="post" id="form_postres2">
+                <input type="radio" id="resp_postre5" name="entrante" value="resp_postre5">
+                <label for="resp_postre5">Limonada de Sostenibilidad Aplicada al Sistema Productivo</label><br>
 
-                <input type="radio" id="respuesta6" name="entrante" value="respuesta6">
-                <label for="respuesta6">Ensalada de Protocolo con Etiqueta al Punto</label><br>
+                <input type="radio" id="resp_postre6" name="entrante" value="resp_postre6">
+                <label for="resp_postre6">Café de Digitalización Aplicada al Sistema Productivo</label><br>
 
-                <input type="radio" id="respuesta7" name="entrante" value="respuesta7">
-                <label for="respuesta7">Pincho de Contabilidad</label><br>
+                <input type="radio" id="resp_postre7" name="entrante" value="resp_postre7">
+                <label for="resp_postre7">Tarta Lingüística de Francés e Inglés</label><br>
 
-                <input type="radio" id="respuesta8" name="entrante" value="respuesta8">
-                <label for="respuesta8">Pincho de Organización de Eventos Empresariales</label><br>
+                <input type="radio" id="resp_postre8" name="entrante" value="resp_postre8">
+                <label for="resp_postre8">Flan de Itinerario Personal para la Empleabilidad</label><br>
 
-                <button type="reset" class="boton" onclick="verificarRespuesta('pregunta2')">Enviar respuesta</button>
+                <button type="reset" class="boton" onclick="verificarRespuesta('pregunta8')">Enviar respuesta</button>
             </form>
 
-        </div>
-        <div id="div_p3" style="display: none">
-            <p>Crujiente mezcla de asientos, balances y ese sabor clásico a “¿Por qué no me cuadra un céntimo?”
-            </p>
-            <form action="#" method="post" id="form_principales3">
-                <input type="radio" id="respuesta9" name="entrante" value="respuesta9">
-                <label for="respuesta9">Lasaña de Gestión Avanzada de la Información</label><br>
-
-                <input type="radio" id="respuesta10" name="entrante" value="respuesta10">
-                <label for="respuesta10">Ensalada de Protocolo con Etiqueta al Punto</label><br>
-
-                <input type="radio" id="respuesta11" name="entrante" value="respuesta11">
-                <label for="respuesta11">Pincho de Contabilidad</label><br>
-
-                <input type="radio" id="respuesta12" name="entrante" value="respuesta12">
-                <label for="respuesta12">Pincho de Organización de Eventos Empresariales</label><br>
-
-                <button type="reset" class="boton" onclick="verificarRespuesta('pregunta3')">Enviar respuesta</button>
-            </form>
         </div>
         <div id="div_continuar"  style="display: none">
-            <a href="postres.html" class="boton">Continuar</a>
+            <a href="bebidas.html" class="boton">Continuar</a>
         </div>
     </div>
 </body>
